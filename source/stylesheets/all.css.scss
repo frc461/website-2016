@@ -1,1 +1,11 @@
 @import '_bootstrap';
+
+body {
+  background-image: url("/images/background.png");
+  background-repeat: repeat;
+}
+
+#carousel-front-page {
+  max-width: 350px;
+  margin: auto;
+}

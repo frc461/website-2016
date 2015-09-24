@@ -1,4 +1,5 @@
 $bootstrap-sass-asset-helper: false !default;
+@import url(https://fonts.googleapis.com/css?family=Raleway|Josefin+Slab);
 //
 // Variables
 // --------------------------------------------------
@@ -43,11 +44,11 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  'Josefin Slab', Helvetica, Arial, sans-serif !default;
+$font-family-serif:       'Raleway', Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
+$font-family-base:        $font-family-serif, !default;
 
 $font-size-base:          14px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
@@ -66,7 +67,7 @@ $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
+$headings-font-family:    $font-family-sans-serif;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;
