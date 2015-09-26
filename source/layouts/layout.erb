@@ -14,18 +14,23 @@
 </head>
 <body class="<%= page_classes %>">
 <h1> Westside Boiler Invasion </h1>
-<nav class="navbar navbar-default navbar-fixed-top">
-     	<div class="row">
-  <div class="col-md-2">
-	<img src="http://assets.boilerinvasion.org/assets/logo-b67204d087e9388f80a15cfd3ddcd035.png" alt= "WBI Logogogogo">
-</div>
-  <div class="col-md-2">two</div>
-  <div class="col-md-2">three</div>
-  <div class="col-md-2">four</div>
-  <div class="col-md-2">five</div>
-  <div class="col-md-2">six</div>
- </div>	
-  </div>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+		<img src="http://assets.boilerinvasion.org/assets/logo-b67204d087e9388f80a15cfd3ddcd035.png" alt= "WBI Logogogogo"></a>
+    </div>
+	<div class="collapse navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="/about.html">About Us</a></li>
+			<li><a href="/about_first.html">About FIRST</a><li>	
+	</ul>
+	</div>
 </nav>
   <div class="container">
     <%= yield %>
