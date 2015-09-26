@@ -6,16 +6,28 @@ body {
 }
 
 #carousel-front-page {
-  max-width: 350px;
+  max-width: 80%;
   margin: auto;
 }
 
 .fb-page{
 margin: auto;
+}
+
 .navbar-brand img{
 	height:100%;
 }
 
 h1{
 	font-weight:bold;
+}
+
+img.sponsors{
+	max-width: 40%;
+	display: block;
+}
+
+p{
+	font-weight:bold;
+	border:2px, round;
 }
