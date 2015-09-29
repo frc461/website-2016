@@ -82,11 +82,18 @@ carousel-container{
   max-height: 800px;
   max-width: 1000px;
   left: 350px;
+}
 
-h1 ~ div {
+h1 ~ div{
 	margin-top: -15px;
 }
-h2+h3 {
+
+h3{
+	margin-top: -5px;
+	margin-bottom: 0px;
+}
+
+h2{
 	margin-top: -5px;
 	margin-bottom: 0px;
 }
