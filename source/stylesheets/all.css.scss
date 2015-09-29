@@ -73,14 +73,13 @@ left: 4px;
   max-width: 250px;
 }
 
-facebook-container{
-  max-height: 600px;
-  max-width: 250px;
+.facebook-container{
+  height: 600px;
+  width: 250px;
 }
 
-carousel-container{
-  max-height: 800px;
-  max-width: 1000px;
+.carousel-container{
+  position: absolute;
   left: 350px;
 }
 
@@ -96,4 +95,12 @@ h3{
 h2{
 	margin-top: -5px;
 	margin-bottom: 0px;
+}
+
+.index-about-container{
+  height: 800px;
+  width: 1000px;
+  position: absolute;
+  left: 300px;
+  top: 400px;
 }
