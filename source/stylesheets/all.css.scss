@@ -81,7 +81,10 @@ left: 4px;
 .carousel-container{
   position: absolute;
   left: 350px;
+  height: 600px;
+  max-width: 2000px;
 }
+
 
 h1 ~ div{
 	margin-top: -15px;
