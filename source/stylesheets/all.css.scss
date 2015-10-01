@@ -58,11 +58,6 @@ hr {
   text-align: center;
 }
 
-p{
-  font-weight:bold;
-  border:2px, round;
-}
-
 .social-side{
 position: absolute;
 left: 4px;
@@ -87,17 +82,22 @@ left: 4px;
 
 
 h1 ~ div{
-	margin-top: -15px;
+	margin-top: -5px;
 }
 
 h3{
-	margin-top: -5px;
+	margin-top: 5px;
 	margin-bottom: 0px;
+	margin-left: 20px;
 }
 
 h2{
-	margin-top: -5px;
+	margin-top: 5px;
 	margin-bottom: 0px;
+}
+
+h3 ~ p{
+	margin-left: 20px;
 }
 
 .index-about-container{
