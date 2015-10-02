@@ -74,9 +74,9 @@ left: 4px;
 }
 
 .carousel-container{
-  position: absolute;
-  left: 350px;
-  height: 600px;
+  position: relative;
+  left: 120px;
+  height: 400px;
   max-width: 2000px;
 }
 
@@ -103,7 +103,7 @@ h3 ~ p{
 .index-about-container{
   height: 800px;
   width: 1000px;
-  position: absolute;
-  left: 300px;
-  top: 400px;
+  position: relative;
+  left: 200px;
+  top: 350px;
 }
