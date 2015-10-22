@@ -29,17 +29,15 @@
 		<li class="dropdown">
 			<a href="/about.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
 		  <ul class="dropdown-menu">
-			<li><a href="/about.html">About Us</a></li>
+			<li><a href="/about.html">About Us</a>
 			<li><a href="/teamhistory.html">Team History</a></li>
 		</ul>
-           </li>
-		<li class="dropdown">
+           < li class="dropdown">
                         <a href="/about_first.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About First</a>
                   <ul class="dropdown-menu">
                         <li><a href="/about_first.html">About First</a>
                         <li><a href="/about_first_robotics.html">About First Robotics</a></li>
-                </ul>
-</li>
+                </ul>>
             <li><a href="/members.html">Member Resources</a></li>
 		                <li class="dropdown">
                         <a href="/subteams.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Subteams</a>
@@ -59,43 +57,29 @@
 </div>
 </div>
 <br>
-<div class="container sponsor-column">
-		
-		<hr/>
+<div class="container">,
+
+    <div class="row">
+        <div class="col-md-12 sponsor-column">
             <h3>Lead Sponsors</h3>
             <hr/>
-    <div class="row">
-        <div class="col-md-4 sponsor-column">
             <a href="http://hs.wl.k12.in.us">
                 <img class="sponsors" src='/images/original-wlhs-logo.png'>West Lafayette High School</img>
             </a>
-        </div>
-        <div class="col-md-4 sponsor-column">
             <a href="http://www.cat.com">
                 <img class="sponsors" src='/images/caterpillar-logo.png'>Caterpillar</img>
             </a>
-        </div>
-        <div class="col-md-4 sponsor-column">
             <a href="https://boilerlink.purdue.edu/organization/purduefirstprograms">
                 <img class="sponsors" src='/images/original-pfp-logo.png'>Purdue First Programs</img>
             </a>
-        </div>
-       </div>
-	<br/>
-	<hr/>
-    <h3>FIRST Robotics</h3>
+            <h3>FIRST Robotics</h3>
             <hr/>
-    <div class="row">
-        <div class="col-md-6 sponsor-column">
             <a href="http://www.usfirst.org">
-                <img  class="sponsors" src='/images/first-vertical.png'>US FIRST</img>
+                <img  class="sponsors" src='/images/frc-logo.jpg'>US FIRST</img>
             </a>
-        </div>
-        <div class="col-md-6 sponsor-column">
             <a href="http://www.indianafirst.org">
                 <img  class="sponsors" src='/images/first-logo.png'>Indiana FIRST</img>
             </a>
-        </div>
         </div>
         <br>
     </div>
