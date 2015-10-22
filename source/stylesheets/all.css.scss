@@ -3,7 +3,7 @@
 body {
   background-image: url("/images/background.png");
   background-repeat: repeat;
-  margin-top: 75px;
+  margin-top: 75px !important;
   margin-bottom: 16px;
 }
 
@@ -111,3 +111,4 @@ h3 ~ p{
 .teamhistory img.history{
 	width: 250px;
 }
+
