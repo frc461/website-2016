@@ -16,12 +16,23 @@ body {
   margin: auto;
 }
 
+.navbar {
+	min-height: 70px;
+}
+
 .navbar-brand {
-  padding: 5px;
+	padding: 5px 0px 5px 13px;
+	height: 70px;
+	margin-right: -25px;
 }
 
 .navbar-brand img{
   height: 100%;
+}
+
+.nav > li {
+	margin-top: 9px;
+	font-size: 22px;
 }
 
 h1, h2, h3, h4{
