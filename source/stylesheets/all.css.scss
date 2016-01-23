@@ -142,5 +142,27 @@ h3 ~ p{
 }
 
 .pull-center iframe {
+display: block;
 margin: auto;
+}
+
+.pull-center h3 {
+text-align: center;
+}
+
+.media {
+	overflow: auto;
+	td {
+		vertical-align: middle !important;
+}
+	h3 {
+	font-size: 24px;
+}
+}
+
+.sponsors {
+	text-align: center;
+	hr{
+	margin: 8px;
+}
 }
