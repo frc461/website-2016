@@ -1,18 +1,18 @@
 @import '_bootstrap';
 
 body {
-  background-image: url("/images/background.png");
-  background-repeat: repeat;
-  margin-top: 75px !important;
-  margin-bottom: 16px;
+    background-image: url("/images/background.png");
+    background-repeat: repeat;
+    margin-top: 75px !important;
+    margin-bottom: 16px;
 }
 
 .fb-page{
-  margin: auto;
+    margin: auto;
 }
 
 .navbar {
-	min-height: 70px;
+    min-height: 70px;
 }
 
 .navbar-nav {
@@ -20,153 +20,158 @@ body {
 }
 
 .navbar-brand {
-	padding: 5px 0px 5px 12px;
-	height: 70px;
-	margin-right: -25px;
+    padding: 5px 0px 5px 12px;
+    height: 70px;
+    margin-right: -25px;
 }
 
 .navbar-brand img{
-  height: 64px;
-  margin: 0px 8px;
+    height: 64px;
+    margin: 0px 8px;
 }
 
 .nav > li {
-	margin-top: 9px;
-	font-size: 22px;
+    margin-top: 9px;
+    font-size: 22px;
 }
 
 h1, h2, h3, h4{
-  font-weight:bold;
+    font-weight:bold;
 }
 
 h1 {
-	font-size:40px;
+    font-size:40px;
 }
 
 h2 {
-	font-size:28px;
+    font-size:28px;
 }
 
 h3 {
-	font-size:18px;
+    font-size:18px;
 }
 hr {
-  border-color: $gray-darker;
+    border-color: $gray-darker;
 }
 
 .sponsor-column {
-  img.sponsors{
-    max-width: 100%;
-    max-height: 70px;
-    display: block;
-    margin: auto;
-    margin-top: 8px;
-    margin-bottom: 2px;
-  }
-  h3 {
-    margin-top: 8px;
-    margin-bottom: 0px;
-  }
-  hr {
-    margin: 8px 0px;
-  }
-  text-align: center;
-  width: 100%;
+    img.sponsors{
+        max-width: 100%;
+        max-height: 70px;
+        display: block;
+        margin: auto;
+        margin-top: 8px;
+        margin-bottom: 2px;
+    }
+    h3 {
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+    hr {
+        margin: 8px 0px;
+    }
+    text-align: center;
+    width: 100%;
 }
 
 .social-sidebar{
-position: absolute;
-left: 4px;
+    position: absolute;
+    left: 4px;
 }
 
 .twitter-container{
-  max-height: 600px;
-  max-width: 250px;
+    max-height: 600px;
+    max-width: 250px;
 }
 
 .facebook-container{
-  height: 600px;
-  width: 250px;
+    height: 600px;
+    width: 250px;
 }
 
 #carousel-front-page {
-  max-width: 400px;
-  margin: auto;
+    max-width: 400px;
+    margin: auto;
 }
 
 .carousel-container{
-  position: relative;
-  left: 120px;
-  height: 200px;
+    position: relative;
+    left: 120px;
+    height: 200px;
 
-  img {
-      max-height: 200px;
-      max-width: 400px;
-  }
+    img {
+        max-height: 200px;
+        max-width: 400px;
+    }
 }
 
 
 h1 ~ div{
-	margin-top: -5px;
+    margin-top: -5px;
 }
 
 h3{
-	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 20px;
 }
 
 h2{
-	margin-top: 5px;
-	margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 h3 ~ p{
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 .index-about-container{
-  height: 800px;
-  width: 1000px;
-  position: relative;
-  left: 200px;
+    height: 800px;
+    width: 1000px;
+    position: relative;
+    left: 200px;
 }
 
 .teamhistory img.history{
-	width: 250px;
+    width: 250px;
 }
 
 .robots {
- height: 300px;
- float: right
+    height: 300px;
+    float: right
 }
 .big_robot {
- height: 300px;
- float: right;
+    height: 300px;
+    float: right;
 }
 
 .pull-center iframe {
-display: block;
-margin: auto;
+    display: block;
+    margin: auto;
 }
 
 .pull-center h3 {
-text-align: center;
+    text-align: center;
 }
 
 .media {
-	overflow: auto;
-	td {
-		vertical-align: middle !important;
-}
-	h3 {
-	font-size: 24px;
-}
+    overflow: auto;
+    td {
+        vertical-align: middle !important;
+    }
+    h3 {
+        font-size: 24px;
+    }
 }
 
 .sponsors {
-	text-align: center;
-	hr{
-	margin: 8px;
-}
+    text-align: center;
+
+    hr{
+        margin: 8px;
+    }
+
+    .row {
+        margin: 8px 0px;
+    }
 }
