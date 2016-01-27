@@ -4,7 +4,7 @@ body {
     background-image: url("/images/background.png");
     background-repeat: repeat;
     margin-top: 75px !important;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 .fb-page{
@@ -62,6 +62,9 @@ hr {
         margin: auto;
         margin-top: 8px;
         margin-bottom: 2px;
+        box-shadow: 0px 0px 12px rgba(90,90,90,0.8);
+        padding: 8px;
+        border: 1px solid #949494;
     }
     h3 {
         margin-top: 8px;
@@ -95,7 +98,7 @@ hr {
 }
 
 .carousel-container{
-    position: relative;
+    
     left: 120px;
     height: 200px;
 
@@ -175,3 +178,13 @@ h3 ~ p{
         margin: 8px 0px;
     }
 }
+
+.container.sponsor-column {
+ background-color: #c7c7ce;
+ 
+}
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
