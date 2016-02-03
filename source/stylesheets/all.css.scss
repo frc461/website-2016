@@ -191,3 +191,23 @@ h3 ~ p{
 .carousel-inner .next        { left:  33%; }
 .carousel-inner .prev        { left: -33%; }
 .carousel-control.left,.carousel-control.right {background-image:none;}
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 40vw;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 40vw;
+    left: 15vw;
+}
+
