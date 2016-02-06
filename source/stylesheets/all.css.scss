@@ -1,4 +1,5 @@
 @import '_bootstrap';
+@import 'slick-theme';
 
 body {
   background-image: url("/images/background.png");
@@ -91,19 +92,11 @@ hr {
   width: 100%
 }
 
-#carousel-front-page {
-  max-width: 400px;
-  margin: auto;
-}
-
-.carousel-container{
-
-  left: 120px;
-  height: 200px;
-
+.carousel {
   img {
-    max-height: 200px;
-    max-width: 400px;
+    max-height: 225px;
+    max-width: 300px;
+    margin: 8px 2px;
   }
 }
 
@@ -125,11 +118,6 @@ h2{
 
 h3 ~ p{
   margin-left: 20px;
-}
-
-.index-about-container{
-  height: 800px;
-  width: 1000px;
 }
 
 .teamhistory img.history{
@@ -186,11 +174,6 @@ h3 ~ p{
   background-color: #c7c7ce;
 
 }
-
-.carousel-inner .active.left { left: -33%; }
-.carousel-inner .next        { left:  33%; }
-.carousel-inner .prev        { left: -33%; }
-.carousel-control.left,.carousel-control.right {background-image:none;}
 
 .responsive-iframe-container {
     position: relative;

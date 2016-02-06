@@ -1,13 +1,13 @@
 //= require_tree .
 $(function() {
-$('.carousel').slick({
-  dots: true,
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  adaptiveHeight: true,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 5000,
+var slick = $('.carousel').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    variableWidth: true,
+    centerMode: true,
+    centerPadding: '20px'
 });
 });
