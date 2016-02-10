@@ -98,6 +98,18 @@ hr {
     max-width: 300px;
     margin: 8px 2px;
   }
+
+  .slick-next {
+	display: block;
+	margin-right: 20px;
+	z-index: 1000;
+  }
+
+  .slick-prev {
+	display: block;
+	margin-left: 20px;
+	z-index: 1000;
+  }
 }
 
 
