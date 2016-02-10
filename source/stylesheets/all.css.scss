@@ -1,4 +1,5 @@
 @import '_bootstrap';
+@import 'slick-theme';
 
 body {
   background-image: url("/images/background.png");
@@ -91,19 +92,11 @@ hr {
   width: 100%
 }
 
-#carousel-front-page {
-  max-width: 400px;
-  margin: auto;
-}
-
-.carousel-container{
-
-  left: 120px;
-  height: 200px;
-
+.carousel {
   img {
-    max-height: 200px;
-    max-width: 400px;
+    max-height: 225px;
+    max-width: 300px;
+    margin: 8px 2px;
   }
 }
 
@@ -125,11 +118,6 @@ h2{
 
 h3 ~ p{
   margin-left: 20px;
-}
-
-.index-about-container{
-  height: 800px;
-  width: 1000px;
 }
 
 .teamhistory img.history{
@@ -187,6 +175,7 @@ h3 ~ p{
 
 }
 
+<<<<<<< HEAD
 .carousel-inner .active.left { left: -33%; }
 .carousel-inner .next        { left:  33%; }
 .carousel-inner .prev        { left: -33%; }
@@ -195,3 +184,23 @@ h3 ~ p{
 .tech img.history {
 height:200px;
   }
+=======
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 40vw;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 40vw;
+    left: 15vw;
+}
+>>>>>>> b98bc35eb052fcd600e4c4aa69392d5913358d8d
