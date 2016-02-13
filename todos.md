@@ -1,9 +1,4 @@
-- Fix home page
-- Make sponsors page less stupid
-- Re-align sponsor page info
-- Fix tech subteam page - it's all kinds of screwy
-- Why does the media page not scroll?
-- Can we get some pics for the About FIRST/About FRC pages?
-- Give each subteam a picture & a link on the subteams page
-- OI page needs pictures
-- 
+- Some sort of archive of old pictures and websites info and stuff
+- Boyscouts info
+- Chairmans awards stuff
+ 
