@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-  font-size:28px;
+  font-size:32px;
 }
 
 h3 {
@@ -219,5 +219,10 @@ h3 ~ p{
 	padding: 3.5px;	
 }
 
+.panel-grey{
+background-color: #dbdbdb;
+}
 
-
+.panel-grey .panel-heading{
+background-color: #cccccc; 
+}
