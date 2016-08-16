@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-  font-size:28px;
+  font-size:32px;
 }
 
 h3 {
@@ -189,7 +189,7 @@ h3 ~ p{
 
 .responsive-iframe-container {
     position: relative;
-    padding-bottom: 40vw;
+    padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
@@ -201,9 +201,8 @@ h3 ~ p{
     position: absolute;
     top: 0;
     left: 0;
-    width: 70vw;
-    height: 40vw;
-    left: 15vw;
+    width: 100%;
+    height: 100%;
 }
 
 .index	{
@@ -219,5 +218,10 @@ h3 ~ p{
 	padding: 3.5px;	
 }
 
+.panel-grey{
+background-color: #dbdbdb;
+}
 
-
+.panel-grey .panel-heading{
+background-color: #cccccc; 
+}
