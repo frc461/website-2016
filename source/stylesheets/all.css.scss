@@ -2,28 +2,28 @@
 @import 'slick-theme';
 
 body {
-  background-image: url("/images/background.png");
-  background-repeat: repeat;
-  margin-top: 75px !important;
-  margin-bottom: 0px;
+	background-image: url("/images/background.png");
+	background-repeat: repeat;
+	margin-top: 75px !important;
+	margin-bottom: 0px;
 }
 
 .fb-page{
-  margin: auto;
+	margin: auto;
 }
 
 .navbar {
-  min-height: 70px;
+	min-height: 70px;
 }
 
 .navbar-nav {
-  margin-left: 16px;
+	margin-left: 16px;
 }
 
 .navbar-brand {
-  padding: 5px 0px 5px 12px;
-  height: 70px;
-  margin-right: -25px;
+	padding: 5px 0px 5px 12px;
+	height: 70px;
+	margin-right: -25px;
 }
 
 img {
@@ -31,141 +31,141 @@ img {
 }
 
 .navbar-brand img{
-  height: 64px;
-  margin: 0px 8px;
+	height: 64px;
+	margin: 0px 8px;
 }
 
 .nav > li {
-  margin-top: 9px;
-  font-size: 22px;
+	margin-top: 9px;
+	font-size: 22px;
 }
 
 h1, h2, h3, h4{
-  font-weight:bold;
+	font-weight:bold;
 }
 
 h1 {
-  font-size:40px;
+	font-size:40px;
 }
 
 h2 {
-  font-size:32px;
+	font-size:32px;
 }
 
 h3 {
-  font-size:18px;
+	font-size:18px;
 }
 hr {
-  border-color: $gray-darker;
+	border-color: $gray-darker;
 }
 
 .sponsor-column {
-  img.sponsors{
-    max-width: 100%;
-    max-height: 70px;
-    display: block;
-    margin: auto;
-    margin-top: 8px;
-    margin-bottom: 2px;
-    box-shadow: 0px 0px 12px rgba(90,90,90,0.8);
-    padding: 8px;
-    border: 1px solid #949494;
-  }
-  h3 {
-    margin-top: 8px;
-    margin-bottom: 0px;
-  }
-  hr {
-    margin: 8px 0px;
-  }
-  text-align: center;
-  width: 100%;
+	img.sponsors{
+		max-width: 100%;
+		max-height: 70px;
+		display: block;
+		margin: auto;
+		margin-top: 8px;
+		margin-bottom: 2px;
+		box-shadow: 0px 0px 12px rgba(90,90,90,0.8);
+		padding: 8px;
+		border: 1px solid #949494;
+	}
+	h3 {
+		margin-top: 8px;
+		margin-bottom: 0px;
+	}
+	hr {
+		margin: 8px 0px;
+	}
+	text-align: center;
+	width: 100%;
 }
 
 .social-sidebar{
-  position: relative;
+	position: relative;
 }
 
 .twitter-container{
-  max-height: 600px;
-  width: 100%
+	max-height: 600px;
+	width: 100%
 }
 
 .facebook-container{
-  height: 600px;
-  width: 100%
+	height: 600px;
+	width: 100%
 }
 
 .carousel {
-  img {
-    max-height: 225px;
-    max-width: 300px;
-    margin: 8px 2px;
-  }
+	img {
+		max-height: 225px;
+		max-width: 300px;
+		margin: 8px 2px;
+	}
 
-  .slick-next {
-	display: block;
-	margin-right: 20px;
-	z-index: 1000;
-  }
+	.slick-next {
+		display: block;
+		margin-right: 20px;
+		z-index: 1000;
+	}
 
-  .slick-prev {
-	display: block;
-	margin-left: 20px;
-	z-index: 1000;
-  }
+	.slick-prev {
+		display: block;
+		margin-left: 20px;
+		z-index: 1000;
+	}
 }
 
 
 h1 ~ div{
-  margin-top: -5px;
+	margin-top: -5px;
 }
 
 h3{
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 20px;
 }
 
 h2{
-  margin-top: 5px;
-  margin-bottom: 0px;
+	margin-top: 5px;
+	margin-bottom: 0px;
 }
 
 h3 ~ p{
-  margin-left: 20px;
+	margin-left: 20px;
 }
 
 .teamhistory img.history{
-  width: 250px;
+	width: 250px;
 }
 
 .robots {
-  height: 300px;
-  float: right
+	height: 300px;
+	float: right
 }
 .big_robot {
-  height: 300px;
-  float: right;
+	height: 300px;
+	float: right;
 }
 
 .pull-center iframe {
-  display: block;
-  margin: auto;
+	display: block;
+	margin: auto;
 }
 
 .pull-center h3 {
-  text-align: center;
+	text-align: center;
 }
 
 .media {
-  overflow: auto;
-  td {
-    vertical-align: middle !important;
-  }
-  h3 {
-    font-size: 24px;
-  }
+	overflow: auto;
+	td {
+		vertical-align: middle !important;
+	}
+	h3 {
+		font-size: 24px;
+	}
 }
 
 .tech {
@@ -175,19 +175,19 @@ h3 ~ p{
 }
 
 .sponsors {
-  text-align: center;
+	text-align: center;
 
-  hr{
-    margin: 8px;
-  }
+	hr{
+		margin: 8px;
+	}
 
-  .row {
-    margin: 8px 0px;
-  }
+	.row {
+		margin: 8px 0px;
+	}
 }
 
 .container.sponsor-column {
-  background-color: #c7c7ce;
+	background-color: #c7c7ce;
 
 }
 
@@ -198,9 +198,9 @@ h3 ~ p{
     height: 0;
     overflow: hidden;
 }
- 
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
@@ -211,21 +211,21 @@ h3 ~ p{
 
 .index	{
 	p{
-	font-size: 18px;
-}
+		font-size: 18px;
+	}
 	h2{
-	font-size: 40px;
-}
+		font-size: 40px;
+	}
 }
 
 .immages{
-	padding: 3.5px;	
+	padding: 3.5px;
 }
 
 .panel-grey{
-background-color: #dbdbdb;
+	background-color: #dbdbdb;
 }
 
 .panel-grey .panel-heading{
-background-color: #cccccc; 
+	background-color: #cccccc;
 }
